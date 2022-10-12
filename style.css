@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+.card{
+    color: white;
+    background-color: #000000d0;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #7c7c7c2b;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background:#7c7c7c6b ;
+    cursor: pointer;
+}
+.location{
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    width: 15rem;
+    height: 1.5rem;
+    padding: 1rem;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+}
+
